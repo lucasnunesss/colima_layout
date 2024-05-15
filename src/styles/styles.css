@@ -52,7 +52,7 @@ nav {
   
   }
 
-@media (max-width: 550px){
+@media (max-width: 600px){
  .itemsInit{
   display: none;
  }
@@ -89,6 +89,19 @@ nav {
   text-align: left;
   margin: auto;
 }
+}
+
+@media (max-width: 430px){
+  .backgroundImage .texto {
+    position: absolute;
+  
+    top: 38%; /* Ajuste a posição vertical */
+    left: 10%; /* Ajuste a posição horizontal */
+    color: white; /* Cor do texto */
+    line-height: 1.2;
+    font-size: 1.1em;
+    text-align: left;
+  }
 }
 
 
