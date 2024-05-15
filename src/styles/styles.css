@@ -44,9 +44,9 @@ nav {
 
   .backgroundImage .texto {
     position: absolute;
-    top: 32%; /* Ajuste a posição vertical */
-    left: 14%; /* Ajuste a posição horizontal */
-    color: white; /* Cor do texto */
+    top: 32%; 
+    left: 14%; 
+    color: white;
     line-height: 1.5;
     font-size: 23px;
   
@@ -57,9 +57,9 @@ nav {
 .backgroundImage .texto {
   position: absolute;
 
-  top: 36%; /* Ajuste a posição vertical */
-  left: 14%; /* Ajuste a posição horizontal */
-  color: white; /* Cor do texto */
+  top: 36%; 
+  left: 14%; 
+  color: white; 
   line-height: 1.2;
   font-size: 1.4em;
   cursor: pointer;
@@ -95,9 +95,9 @@ nav {
 .backgroundImage .texto {
   position: absolute;
 
-  top: 38%; /* Ajuste a posição vertical */
-  left: 12%; /* Ajuste a posição horizontal */
-  color: white; /* Cor do texto */
+  top: 38%; 
+  left: 12%; 
+  color: white;
   line-height: 1.2;
   font-size: 1.2em;
   cursor: pointer;
@@ -115,9 +115,9 @@ nav {
   .backgroundImage .texto {
     position: absolute;
   
-    top: 38%; /* Ajuste a posição vertical */
-    left: 10%; /* Ajuste a posição horizontal */
-    color: white; /* Cor do texto */
+    top: 38%;
+    left: 8%; 
+    color: white; 
     line-height: 1.2;
     font-size: 1.1em;
     text-align: left;
@@ -148,8 +148,8 @@ nav {
   color: white;
 
   border-bottom: 1px solid white;
-  padding: 10px; /* Adicionado padding para melhor espaçamento */
-  margin: 1px; /* Adicionado margem para melhor espaçamento */
+  padding: 10px; /*  padding para melhor espaçamento */
+  margin: 1px; /* margem para melhor espaçamento */
 }
 
 .listMobile ul li:hover{
@@ -160,12 +160,12 @@ nav {
 .backgroundImage{
   background: url('../images/header_img2.jpg');
   background-repeat: no-repeat;
-  background-size: cover; /* Ajuste o tamanho da imagem para cobrir o contêiner */
-  background-position: center; /* Centralize a imagem dentro do contêiner */
+  background-size: cover; /* ajuste o tamanho da imagem para cobrir o conteiner */
+  background-position: center; /* centralize a imagem dentro do conteiner */
   height: 600px;
   position: absolute;
-  width: 100%; /* Ajuste a largura para ocupar toda a largura da tela */
-  overflow: hidden; /* Oculte o excesso de imagem */
+  width: 100%; /* ajuste a largura para ocupar toda a largura da tela */
+  overflow: hidden; /* ocultar o excesso de imagem */
 }
 
 
