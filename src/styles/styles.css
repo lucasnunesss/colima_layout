@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+nav {
+    background-color: #30526B;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  
+  .logo img {
+    max-height: 70px; /* Defina a altura máxima do seu logo */
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #menu{
+    display: none;
+  }
+
+
+  .backgroundImage .texto {
+    position: absolute;
+    top: 32%; /* Ajuste a posição vertical */
+    left: 14%; /* Ajuste a posição horizontal */
+    color: white; /* Cor do texto */
+    line-height: 1.5;
+    font-size: 23px;
+  
+  }
+
+@media (max-width: 550px){
+ .itemsInit{
+  display: none;
+ }
+
+ #menu{
+  display: block;
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+  margin-left: 20px;
+ }
+
+ .logo{
+  margin-top: 10px;
+ }
+
+ .logo img{
+  margin-left: -20%;
+  max-height: 50px;
+ }
+
+ .backgroundImage{
+
+ }
+
+.backgroundImage .texto {
+  position: absolute;
+
+  top: 38%; /* Ajuste a posição vertical */
+  left: 12%; /* Ajuste a posição horizontal */
+  color: white; /* Cor do texto */
+  line-height: 1.2;
+  font-size: 1.2em;
+  text-align: left;
+  margin: auto;
+}
+}
+
+
+.listMobile{
+  display: none;
+  background-color: #282828f3;
+  position: absolute;
+  z-index: 1000;
+  right: 5%;
+  width: 90%;
+  margin-top: 2px;
+}
+
+.listMobile ul{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.listMobile ul li{
+  
+  color: white;
+
+  border-bottom: 1px solid white;
+  padding: 10px; /* Adicionado padding para melhor espaçamento */
+  margin: 1px; /* Adicionado margem para melhor espaçamento */
+}
+
+.listMobile ul li:hover{
+  color: #595959;
+  cursor: pointer;
+}
+
+.backgroundImage{
+  background: url('../images/header_img2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Ajuste o tamanho da imagem para cobrir o contêiner */
+  background-position: center; /* Centralize a imagem dentro do contêiner */
+  height: 600px;
+  position: absolute;
+  width: 100%; /* Ajuste a largura para ocupar toda a largura da tela */
+  overflow: hidden; /* Oculte o excesso de imagem */
+}
+
+
+
+
+.btnHeader{
+  all: unset;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #F87312;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btnHeader:hover{
+  background-color: #ee690a;
+  color: white;
+}
+
