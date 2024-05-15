@@ -86,9 +86,15 @@ nav {
   color: white; /* Cor do texto */
   line-height: 1.2;
   font-size: 1.2em;
-  text-align: left;
-  margin: auto;
+  cursor: pointer;
 }
+
+ .arq-moderna:hover{
+  font-size: 1.2em;
+  
+}
+
+
 }
 
 @media (max-width: 430px){
@@ -102,6 +108,8 @@ nav {
     font-size: 1.1em;
     text-align: left;
   }
+
+
 }
 
 
@@ -169,3 +177,13 @@ nav {
   color: white;
 }
 
+.backgroundImage h1{
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  font-weight: 100;
+  text-decoration: underline;
+  text-decoration-color: #22C1AA;
+  text-decoration-thickness: 1px; /* Definir a espessura do sublinhado */
+  text-underline-offset: 10px; /* Definir a distância entre o texto e o sublinhado */
+}
