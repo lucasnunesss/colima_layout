@@ -52,7 +52,21 @@ nav {
   
   }
 
-@media (max-width: 600px){
+@media (max-width: 600px) and (min-width: 540px){
+  
+.backgroundImage .texto {
+  position: absolute;
+
+  top: 36%; /* Ajuste a posição vertical */
+  left: 14%; /* Ajuste a posição horizontal */
+  color: white; /* Cor do texto */
+  line-height: 1.2;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+}
+
+@media (max-width: 539px){
  .itemsInit{
   display: none;
  }
@@ -186,4 +200,6 @@ nav {
   text-decoration-color: #22C1AA;
   text-decoration-thickness: 1px; /* Definir a espessura do sublinhado */
   text-underline-offset: 10px; /* Definir a distância entre o texto e o sublinhado */
+  margin-bottom: 10px;
+  
 }
