@@ -127,6 +127,23 @@ nav {
 }
 
 
+@media (max-width: 359px){
+  .backgroundImage .texto {
+    position: absolute;
+  
+    top: 38%;
+    left:4%;
+    color: white; 
+    line-height: 1.2;
+    font-size: 1.1em;
+
+  }
+
+
+}
+
+
+
 .listMobile{
   display: none;
   background-color: #282828f3;
