@@ -59,6 +59,28 @@ nav {
   }
 
 @media (max-width: 600px) and (min-width: 540px){
+
+  .itemsInit{
+    display: none;
+   }
+  
+   #menu{
+    display: block;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+   }
+  
+   .logo{
+    margin-top: 10px;
+   }
+  
+   .logo img{
+    margin-left: -20%;
+    max-height: 50px;
+   }
+  
   
 .backgroundImage .texto {
   position: absolute;
@@ -102,7 +124,7 @@ nav {
   position: absolute;
 
   top: 38%; 
-  left: 12%; 
+  left: 14%; 
   color: white;
   line-height: 1.2;
   font-size: 1.2em;
