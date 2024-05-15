@@ -7,6 +7,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+:root{
+ --1: #D51818;
+ --2: 30526;
+ --3: #FFFFFF;
+ --4: #808080;
+}
 
 
 nav {
@@ -175,7 +181,7 @@ nav {
 }
 
 .backgroundImage{
-  background: url('../images/header_img2.jpg');
+  background: url('../images/header_img3.jpg');
   background-repeat: no-repeat;
   background-size: cover; /* ajuste o tamanho da imagem para cobrir o conteiner */
   background-position: center; /* centralize a imagem dentro do conteiner */
