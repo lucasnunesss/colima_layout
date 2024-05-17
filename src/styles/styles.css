@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -7,13 +9,18 @@
   font-family: "Poppins", sans-serif;
 }
 
+
 :root{
  --1: #D51818;
  --2: 30526;
  --3: #FFFFFF;
  --4: #808080;
+ --5:  "Montserrat", sans-serif;
 }
 
+body{
+  background-color: #F1F5FA;
+}
 
 nav {
     background-color: #30526B;
@@ -21,6 +28,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 1px solid var(--4);
   }
 
 
@@ -47,6 +55,18 @@ nav {
     display: none;
   }
 
+  .backgroundImage{
+    background: url('../images/header_img3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* ajuste o tamanho da imagem para cobrir o conteiner */
+    background-position: center; /* centralize a imagem dentro do conteiner */
+    height: 600px;
+    position: absolute;
+    width: 100%; /* ajuste a largura para ocupar toda a largura da tela */
+    overflow: hidden; /* ocultar o excesso de imagem */
+  }
+  
+  
 
   .backgroundImage .texto {
     position: absolute;
@@ -55,7 +75,7 @@ nav {
     color: white;
     line-height: 1.5;
     font-size: 23px;
-  
+    font-weight: 200;
   }
 
 @media (max-width: 600px) and (min-width: 540px){
@@ -63,6 +83,8 @@ nav {
   .itemsInit{
     display: none;
    }
+
+  
   
    #menu{
     display: block;
@@ -122,7 +144,7 @@ nav {
 
 .backgroundImage .texto {
   position: absolute;
-
+  
   top: 38%; 
   margin-left: -5px;
   color: white;
@@ -200,17 +222,6 @@ nav {
   cursor: pointer;
 }
 
-.backgroundImage{
-  background: url('../images/header_img3.jpg');
-  background-repeat: no-repeat;
-  background-size: cover; /* ajuste o tamanho da imagem para cobrir o conteiner */
-  background-position: center; /* centralize a imagem dentro do conteiner */
-  height: 600px;
-  position: absolute;
-  width: 100%; /* ajuste a largura para ocupar toda a largura da tela */
-  overflow: hidden; /* ocultar o excesso de imagem */
-}
-
 
 
 
@@ -221,7 +232,7 @@ nav {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background-color: #F87312;
+  background-color: var(--1);
   padding: 15px;
   color: rgb(255, 255, 255);
   border-radius: 5px;
@@ -245,4 +256,120 @@ nav {
   text-underline-offset: 10px; /* Definir a distância entre o texto e o sublinhado */
   margin-bottom: 10px;
   
+}
+
+
+.cart-1{
+  display: block;
+  position: relative;
+  z-index: 1100;
+  color: black;
+  width: 300px;
+  height: 210px;
+  margin: 550px auto auto auto;
+  background-color: var(--3);
+  border: 1px solid #135B82;
+  border-radius: 20px;
+}
+
+.cart-1 h1{
+  font-size: 20px;
+  text-align: center;
+  color: #053D57;
+  font-weight: 700;
+  margin-top: 25px;
+  font-family: var(--5);
+}
+
+.cart-1 p{
+
+  text-align: justify;
+  margin: 15px auto auto auto;
+  max-width: 250px;
+ color: #135B82;
+}
+
+.cart-2{
+  display: block;
+  position: relative;
+  z-index: 1100;
+  color: black;
+  width: 300px;
+  height: 300px;
+  margin: 50px auto auto auto;
+  background-color: var(--3);
+  border: 1px solid #135B82;
+  border-radius: 20px;
+}
+
+.cart-2 h1{
+  font-size: 20px;
+  text-align: center;
+  color: #053D57;
+  font-weight: 700;
+  margin-top: 25px;
+  font-family: var(--5);
+}
+
+.cart-2 p{
+ 
+  text-align: justify;
+margin: 0;
+  padding: 20px;
+
+  color: #135B82;
+}
+
+.cart-3{
+  display: block;
+  position: relative;
+  z-index: 1100;
+  color: black;
+  width: 300px;
+  height: 300px;
+  margin: 50px auto auto auto;
+  background-color: var(--3);
+  border: 1px solid #135B82;
+  border-radius: 20px;
+}
+
+.cart-3 h1{
+  font-size: 20px;
+  text-align: center;
+  color: #053D57;
+  font-weight: 700;
+  margin-top: 25px;
+  font-family: var(--5);
+}
+
+.cart-3 p{
+ 
+  text-align: justify;
+margin: 0;
+  padding: 20px;
+
+  color: #135B82;
+}
+
+.sobre{
+  background-color: white;
+}
+
+.sobre div h1{
+  text-align: center;
+  line-height: 1em;
+  margin: 0px 0 10px 0;
+  padding-top: 30px;
+  color: #053D57;
+}
+
+.sobre div{
+  width: 70%;
+  margin: 10px auto auto auto;
+  font-family: var(--5);
+}
+
+.sobre div p{
+  color: #21536A;
+  font-weight: 400;
 }
