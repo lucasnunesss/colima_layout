@@ -459,8 +459,14 @@ section > h1{
  
 }
 
-.projects  #sec1, #sec2, #sec3 {
+.projects  #sec1, #sec2, #sec3, #sec4, #sec5 {
   border: none;
   height: 350px;
   border-radius: 0px;
+}
+
+#art h1{
+  color: #053D57;
+  text-align: center;
+
 }
