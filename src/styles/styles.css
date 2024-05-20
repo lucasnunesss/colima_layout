@@ -158,7 +158,36 @@ nav {
   
 }
 
+.formD{
 
+}
+
+  .formu{
+
+
+    padding-top: 30px;
+    background-color: white;
+  }
+
+  .formu form{
+    margin-left: 30px;
+  }
+
+  label {
+    display: block;
+
+
+ 
+
+  }
+
+  label input{
+    
+  }
+
+  .send{
+    
+  }
 }
 
 @media (max-width: 450px){
@@ -465,8 +494,13 @@ section > h1{
   border-radius: 0px;
 }
 
-#art h1{
+.art h1{
   color: #053D57;
   text-align: center;
 
+}
+
+#art2{
+  text-align: center;
+  margin: auto;
 }
