@@ -402,3 +402,64 @@ section .section2 img{
   border-radius: 10px;
   margin-top: 10px;
 } 
+
+article{
+  background-color: white;
+  padding-top: 15px;
+  max-width: 100%;
+}
+
+article span{
+  color: var(--1);
+}
+
+article .texto{
+ margin-left: 10px;
+ max-width: 80%;
+}
+
+article .texto > h1{
+  margin-top: 10px;
+  font-weight: bold;
+  color: #053D57;
+}
+
+article p{
+  text-align: justify;
+
+}
+
+article .texto .verMais{
+  background-color: var(--1);
+  padding: 5px 50px 5px 50px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 20px;
+  border: none;
+}
+
+.tes{
+  margin-top: 20px;
+}
+
+.tes .imgTeste{
+  max-width: 100%;
+
+}
+
+section > h1{
+  color: #053D57;
+  text-align: center;
+}
+
+.projects {
+  padding-top: 10px;
+ 
+}
+
+.projects  #sec1, #sec2, #sec3 {
+  border: none;
+  height: 400px;
+}
