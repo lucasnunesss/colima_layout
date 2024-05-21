@@ -64,7 +64,7 @@
   .sectionSobre{
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   .why{
@@ -79,7 +79,7 @@
   }
 
   .projects{
-    
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
