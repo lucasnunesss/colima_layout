@@ -1,0 +1,97 @@
+@media only screen and (min-width: 768px) {
+  .backgroundImage h1 {
+    width: 50%;
+    margin: 40px auto auto auto;
+    background-color: #8080806f;
+  }
+  
+  .flash-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 550px 0 0 0;
+    justify-content: center; /* Para centralizar os cartões */
+    gap: 30px;
+  }
+  
+  .flash-cards .card {
+    max-width: 45%; /* Limita a largura máxima dos cartões */
+    height: 370px;
+    box-sizing: border-box;
+    margin: 0 5px; /* Adiciona margem entre os cartões */
+  }
+
+  .cart-1 h1{
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .cart-1 p{
+    text-align: left;
+    max-width: 100%;
+    font-size: 1.3em;
+    line-height: 2em;
+    margin: auto;
+  }
+
+  .cart-2 h1{
+    margin: 0;
+  }
+
+  .cart-2 p{
+    margin:0;
+    text-align: left;
+    max-width: 100%;
+    font-size: 1.3em;
+  }
+
+  .cart-3 h1{
+    margin: 0;
+  }
+
+  .cart-3 p{
+    margin:0;
+    text-align: left;
+    max-width: 100%;
+    font-size: 1.3em;
+  }
+ 
+
+  .sobre{
+    padding: 30px;
+    margin-bottom: 10px;
+  }
+
+  .sectionSobre{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .why{
+    margin: auto;
+    width: 80%;
+    padding: 30px;
+    border-radius: 30px;
+  }
+
+  .imgTeste{
+    width: 100%;
+  }
+
+  .projects{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+
+  .projects .section2{
+    max-width: 80%;
+
+    box-sizing: border-box;
+    margin: 0 5px; /* Adiciona margem entre os cartões */
+  }
+}
