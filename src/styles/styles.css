@@ -59,12 +59,12 @@ nav {
   .backgroundImage{
     background: url('../images/header_img3.jpg');
     background-repeat: no-repeat;
-    background-size: cover; /* ajuste o tamanho da imagem para cobrir o conteiner */
-    background-position: center; /* centralize a imagem dentro do conteiner */
+    background-size: cover;
+    background-position: center; 
     height: 600px;
     position: absolute;
-    width: 100%; /* ajuste a largura para ocupar toda a largura da tela */
-    overflow: hidden; /* ocultar o excesso de imagem */
+    width: 100%;
+    overflow: hidden; 
   }
   
   
@@ -243,8 +243,8 @@ nav {
   color: white;
 
   border-bottom: 1px solid white;
-  padding: 10px; /*  padding para melhor espaçamento */
-  margin: 1px; /* margem para melhor espaçamento */
+  padding: 10px; 
+  margin: 1px;
 }
 
 .listMobile ul li:hover{
@@ -416,7 +416,7 @@ section .section1 img{
   background-position: center;  */
   height: 300px;
   
-  max-width: 100%; /* ajuste a largura para ocupar toda a largura da tela */
+  max-width: 100%; 
   border: 1px solid var(--4);
   border-radius: 10px;
   margin-top: 10px;
@@ -427,7 +427,7 @@ section .section2 img{
 
   height: 300px;
   
-  max-width: 100%; /* ajuste a largura para ocupar toda a largura da tela */
+  max-width: 100%;
   border: 1px solid var(--4);
   border-radius: 10px;
   margin-top: 10px;
@@ -522,8 +522,8 @@ footer h1{
   font-weight: 100;
  
   text-decoration-color: #22C1AA;
-  text-decoration-thickness: 1px; /* Definir a espessura do sublinhado */
-  text-underline-offset: 10px; /* Definir a distância entre o texto e o sublinhado */
+  text-decoration-thickness: 1px; 
+  text-underline-offset: 10px; 
   margin-bottom: 10px;
   
 }

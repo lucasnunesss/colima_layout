@@ -1,0 +1,48 @@
+@media only screen and (min-width: 600px) {
+
+  .cart-1{
+    width: 400px;
+    height: 210px;
+    padding: 10px;
+  }
+
+  .cart-2{
+    width: 400px;
+    height: 230px;
+    padding: 10px;
+  }
+
+  .cart-3{
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+  }
+
+
+  .cart-1 h1, .cart-2 h1, .cart-3 h1{
+    margin-top: 10px;
+  }
+
+  .cart-1 p, .cart-2 p, .cart-3 p{
+    text-align: center;
+    max-width:100%;
+  }
+
+  .formu{
+   padding: 50px;
+
+  }
+
+  .formu form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+  }
+
+  .formu forms 
+  
+}
