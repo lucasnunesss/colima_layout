@@ -1,0 +1,82 @@
+@media only screen and (min-width: 1200px) {
+  body{
+    background-color: white;
+  }
+  .pai{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    background-color: #305160;
+  }
+  .backgroundImage{
+    background-size: cover;
+    max-width: 50%;
+    background-position: center;
+    margin-left: 20%;
+  }
+
+  .tes{
+    margin: 50px 0 0 0 ;
+
+    padding: 50px;
+  }
+
+ #proj{
+  display: block;
+  max-width: 60%;
+
+  margin: auto;
+  text-align: center;
+ }
+
+ .projects{
+  
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:150px;
+  justify-content: center;
+  padding: 30px;
+}
+
+.why{
+  max-width: 60%;
+ 
+}
+
+.sobre{
+  margin: 30px auto 70px auto;
+  padding: 70px;
+}
+
+.tes.art{
+  display: block;
+  margin: auto;
+  max-width: 50%;
+}
+
+#art, #art2{
+  background-color: #F1F5FA;
+}
+
+.f{
+  background-color: #F1F5FA;
+  margin: auto;
+  display: flex;
+}
+
+.formu{
+  margin: auto;
+  width: 40%;
+ max-width: 100%;
+  border-radius: 20px;
+}
+
+.formu form{
+  margin-left: 30px;
+  height: 500px;
+ 
+}
+
+}
