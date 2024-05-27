@@ -383,6 +383,7 @@ margin: 0;
 
 .sobre{
   background-color: white;
+
 }
 
 .sobre div h1{
@@ -536,4 +537,14 @@ footer h1{
   font-size: 2.5em;
   cursor: pointer;
   color: var(--1)
+}
+
+.services{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.services h1{
+  margin-bottom: 20px;
+  color: #053D57;
 }

@@ -19,3 +19,10 @@ menu.addEventListener('click', e => {
     menu.classList.add('menuInit')
   }
 })
+
+var swiper = new Swiper(".mySwiper", {
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    hide: true,
+  },
+});
