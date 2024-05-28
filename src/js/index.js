@@ -25,9 +25,9 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-scrollbar",
     hide: false,
   },
+  loop: true, // faz o loop dos slides
   autoplay: {
     delay: 1000, // tempo de atraso entre cada slide em milissegundos
     disableOnInteraction: false, // continuar o autoplay mesmo após interação do usuário
   },
-  loop: true, // faz o loop dos slides
 });

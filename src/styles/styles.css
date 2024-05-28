@@ -578,3 +578,7 @@ footer h1{
   margin-bottom: 20px;
   color: #053D57;
 }
+
+.proj{
+  max-width: 100%;
+}
