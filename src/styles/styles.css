@@ -217,7 +217,10 @@ nav {
 
   }
 
+ section .section2 img{
+  max-height: 75vh;
 
+}
 }
 
 
@@ -435,7 +438,7 @@ section .section2 img{
 
   height: 90vh;
   text-align: center;
-  margin: 20px;
+  margin: 10px;
   max-width: 95%;
   border: 1px solid var(--4);
   border-radius: 10px;
