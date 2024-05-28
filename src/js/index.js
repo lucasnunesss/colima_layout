@@ -25,11 +25,19 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-scrollbar",
     hide: false,
   },
-  loop: true, // faz o loop dos slides
+  loop: true,
   autoplay: {
-    delay: 1000, // tempo de atraso entre cada slide em milissegundos
-    disableOnInteraction: false, // continuar o autoplay mesmo após interação do usuário
+    delay: 1000,
+    disableOnInteraction: false,
   },
 
-  spaceBetween: 20, // espaçamento entre os slides em pixels
+  spaceBetween: 20,
+  267: {
+    loop: true,
+    autoplay: {
+      delay: 2000, 
+      disableOnInteraction: true,
+    },
+    spaceBetween: 10, 
+  }
 });
