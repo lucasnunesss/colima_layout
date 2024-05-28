@@ -27,6 +27,7 @@
   }
   
   section .section2 {
+    text-align: center;
     margin: auto;
     padding: 20px 0 20px 0;
    
@@ -35,7 +36,7 @@
   section .section2 img{
 
     height: 150vh;
-    
+    margin: auto;
     max-width: 100%;
     border: 1px solid var(--4);
     border-radius: 10px;
