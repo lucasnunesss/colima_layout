@@ -202,7 +202,10 @@ nav {
     text-align: left;
   }
 
-
+  .mySwiper .swiper-wrapper .proj img {
+    width: 130%;
+    
+  }
 }
 
 
@@ -232,6 +235,8 @@ nav {
   .flash-cards{
     margin-bottom: 10px;
   }
+
+
 }
 
 
@@ -572,6 +577,7 @@ footer h1{
 .services{
   margin-top: 100px;
   text-align: center;
+ 
 }
 
 .services h1{
@@ -579,6 +585,7 @@ footer h1{
   color: #053D57;
 }
 
-.proj{
-  max-width: 100%;
-}
+
+
+
+

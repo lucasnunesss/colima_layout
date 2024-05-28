@@ -131,4 +131,9 @@ section .section2 img{
  
 } 
 
+
+.mySwiper .swiper-wrapper .proj img {
+  max-width: 50%;
+  
+}
 }

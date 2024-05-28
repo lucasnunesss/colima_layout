@@ -74,4 +74,8 @@
    
   } 
   
+  .mySwiper .swiper-wrapper .proj img {
+    width: 100%;
+    
+  }
 }

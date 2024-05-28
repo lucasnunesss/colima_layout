@@ -30,4 +30,6 @@ var swiper = new Swiper(".mySwiper", {
     delay: 1000, // tempo de atraso entre cada slide em milissegundos
     disableOnInteraction: false, // continuar o autoplay mesmo após interação do usuário
   },
+
+  spaceBetween: 20, // espaçamento entre os slides em pixels
 });
