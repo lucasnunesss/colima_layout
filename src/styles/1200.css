@@ -99,14 +99,19 @@ section .section1 img{
   max-width: 100%; 
   border: 1px solid var(--4);
   border-radius: 10px;
-  margin-top: 10px;
+  margin: 10px auto auto auto;
   
+  
+}
+
+section .section2{
+  margin: auto;
 }
 
 section .section2 img{
 
   height: 150vh;
-  
+  margin: 10px auto auto auto;
   max-width: 100%;
   border: 1px solid var(--4);
   border-radius: 10px;
