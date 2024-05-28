@@ -47,5 +47,15 @@
     padding: 20px;
  
   }
+
+  section .section2 img{
+
+    height: 150vh;
+    
+    max-width: 100%;
+ 
+    border-radius: 10px;
+   
+  } 
   
 }

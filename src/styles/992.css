@@ -16,4 +16,14 @@
     background-color: #808080cf;
     display: none;
   }
+
+  section .section2 img{
+
+    height: 150vh;
+    
+    max-width: 100%;
+    border: 1px solid var(--4);
+    border-radius: 10px;
+   
+  } 
 }
