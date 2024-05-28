@@ -217,10 +217,21 @@ nav {
 
   }
 
+
+  section .section2 {
+
+    padding: 20px 0 20px 0;
+    background-color: #305160;
+  }
+
  section .section2 img{
   max-height: 75vh;
-
+  
 }
+
+  .flash-cards{
+    margin-bottom: 10px;
+  }
 }
 
 
@@ -433,6 +444,14 @@ section .section1 img{
   border-radius: 10px;
   margin-top: 10px;
 }  */
+
+
+section .section2 {
+
+  padding: 20px 0 20px 0;
+
+}
+
 
 section .section2 img{
 

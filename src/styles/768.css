@@ -95,6 +95,21 @@
     margin: 0 5px;
   } */
 
+  .flash-cards{
+    margin-bottom: 10px;
+  }
+  .sectionSobre{
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  section .section2 {
+
+    padding: 20px 0 20px 0;
+   
+  }
+
   section .section2 img{
 
     height: 150vh;

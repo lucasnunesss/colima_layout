@@ -104,8 +104,20 @@ section .section1 img{
   
 }
 
+.sectionSobre{
+  max-width: 100%;
+  border: 1px solid black;
+}
+
+.flash-cards{
+  margin-bottom: 10px;
+}
+
 section .section2{
   margin: auto;
+  padding: 20px auto 20px auto;
+   
+  
 }
 
 section .section2 img{
