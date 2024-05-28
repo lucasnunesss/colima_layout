@@ -23,6 +23,11 @@ menu.addEventListener('click', e => {
 var swiper = new Swiper(".mySwiper", {
   scrollbar: {
     el: ".swiper-scrollbar",
-    hide: true,
+    hide: false,
   },
+  autoplay: {
+    delay: 1000, // tempo de atraso entre cada slide em milissegundos
+    disableOnInteraction: false, // continuar o autoplay mesmo após interação do usuário
+  },
+  loop: true, // faz o loop dos slides
 });
